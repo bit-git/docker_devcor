@@ -1,0 +1,24 @@
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Run Container - docker run -it --rm ochohan/devcor sh
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Sometimes DEVNET devices are not available.
+
+Use below environment varibales. 
+Copy/Paste in the container before running scripts.
+
+
+export DEVICE_IP="ios-xe-mgmt.cisco.com"
+export DEVICE_USER="root"
+export DEVICE_PASSWORD="D_Vay!_10&"
+export FILE="devices-1"
+
+
+export DEVICE_IP="ios-xe-mgmt-latest.cisco.com"
+export DEVICE_USER="developer"
+export DEVICE_PASSWORD="C1sco12345"
+export FILE="devices-2"
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

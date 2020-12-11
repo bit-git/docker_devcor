@@ -1,0 +1,7 @@
+2020-11-22 15:11:15,049 - main.util - INFO - Reading device info from: csv-devices
+2020-11-22 15:11:15,051 - main - INFO - read 1 devices from csv-devices
+2020-11-22 15:11:15,051 - main.devclass - INFO - devclass: created IOS device: csr1000v ios-xe-mgmt.cisco.com
+2020-11-22 15:11:15,051 - main - INFO - created device: csr1000v IP: ios-xe-mgmt.cisco.com
+2020-11-22 15:11:21,101 - main.devclass - INFO - devclass: successful login at: ios-xe-mgmt.cisco.com for user: root
+2020-11-22 15:11:26,127 - main - INFO - got interfaces data for: csr1000v
+2020-11-22 15:11:28,590 - main - INFO - got routes data for: csr1000v

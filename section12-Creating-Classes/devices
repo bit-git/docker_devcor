@@ -1,0 +1,8 @@
+d01-is,ios,Mgmt:10.3.21.5,cisco,cisco
+d02-is,ios,Mgmt:10.3.21.6,cisco,cisco
+d03-nx,nx-os,Mgmt:10.3.21.7,cisco,cisco
+d04-nx,nx-os,Mgmt:10.3.21.8,cisco,cisco
+d05-xr,ios-xr,Mgmt:10.3.21.9,cisco,cisco
+d06-xr,ios-xr,Mgmt:10.3.21.10,cisco,cisco
+d07-xe,ios-xe,Mgmt:10.3.21.19,cisco,cisco
+d08-xe,ios-xe,Mgmt:10.3.21.22,cisco,cisco
