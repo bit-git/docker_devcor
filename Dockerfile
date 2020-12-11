@@ -4,10 +4,8 @@ RUN apk update && apk upgrade && apk add openssl-dev openssh git
 
 WORKDIR /root/docker_devcor/
 
-
+RUN git clone https://github.com/bit-git/docker_devcor.git .
 RUN python -m pip install -r requirements.txt
-RUN rm requirements.txt
-RUN git clone https://github.com/bit-git/docker_devcor.git
 RUN mkdir /root/.ssh && mv /root/docker_devcor/ssh_config /root/.ssh/config
 
 EXPOSE 8080 
