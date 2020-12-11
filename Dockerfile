@@ -1,6 +1,6 @@
 FROM python:alpine3.12
 
-RUN apk update && apk upgrade && apk add openssl-dev openssh
+RUN apk update && apk upgrade && apk add openssl-dev openssh git
 
 WORKDIR /root/docker_devcor/
 
