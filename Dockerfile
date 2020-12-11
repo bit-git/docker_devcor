@@ -2,11 +2,11 @@ FROM python:alpine3.12
 
 RUN apk update && apk upgrade && apk add openssl-dev openssh git
 
-WORKDIR /root/docker_devcor/
+WORKDIR /root/dev-workspace/
 
 RUN git clone https://github.com/bit-git/docker_devcor.git .
 RUN python -m pip install -r requirements.txt
-RUN mkdir /root/.ssh && mv /root/docker_devcor/ssh_config /root/.ssh/config
+RUN mkdir /root/.ssh && mv /root/dev-workspace/ssh_config /root/.ssh/config
 
 EXPOSE 8080 
 
